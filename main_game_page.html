@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Macondo&family=Raleway:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<h4 id="player_1_name" class="turn"></h4> <span id="player1_score" class="turn"></span>
+	<br>
+	<h4 id="player_2_name" class="turn"></h4> <span id="player2_score" class="turn"></span>
+<div class="container">
+	<center>
+		<h2 style="color: rgba(179, 4, 233, 0.342); font-family: macondo ; font-weight: bold; padding: 50px; background-color: rgba(0, 0, 0, 0.336);">The Math Quiz Game!</h2>
+		<h3 id="player_question" class="turn" style="font-family: none; color: black;"></h3>
+		<h3 id="player_answer" class="turn" style="font-family: none; color: black;"></h3>
+		<br>
+		<br>
+		<div id="output" class="col-lg-6"></div>
+		<br>
+		<h4>Number 1</h4>
+		<input type="number" class="form-control" id="number_1" placeholder="Number 1" style="width: 30%;">
+		<h4>Number 2</h4>
+		<input type="number" class="form-control" id="number_2" placeholder="Number 2" style="width: 30%;">
+		<br>
+		<button onclick="send()"  class="btn-send">Send</button>
+	</center>
+</div>
+<script src="quiz_game.js"></script>
+</body>
+</html>

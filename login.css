@@ -1,0 +1,123 @@
+body
+{
+	
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		width: 30%;
+		height: 150px;
+		background-color: wheat;
+	}
+
+
+#player_1_name , #player_2_name
+{
+	display: inline-block;
+	font-family: raleway;
+	margin-left: 3px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+	background: white;
+	border-radius: 10px;
+	border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+	text-align: left;
+}
+h1{
+	color: orange;
+	font-family: 'Akaya Kanadaka', cursive;
+}
+h3{
+	font-family: 'Lora', serif;
+	color: teal;
+}
+#username{
+	font-family: 'Yellowtail', cursive;
+	color: turquoise;
+}
+button{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input:hover{
+	background-color: yellow;
+}
+.login_div2:hover{
+	border: 5px solid rgb(102, 6, 73);
+	width: 35%;
+}
+.login_div1:hover{
+	border: 5px solid rgb(102, 6, 73);
+	width: 35%;
+}
+#number_1,#number_2,#input_check_box
+{
+	border-radius: 50px;
+		background-color: #1c122e28;
+}
+h5 {
+
+	font-family: raleway;
+	font-weight: bolder;
+	font-size: 25px;
+}
+h4{
+	color: black;
+	font-family: raleway;
+	width: 100px;
+	font-weight: bolder;
+}
+
+#player_1_name, #player_2_name{
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.btn-send {
+
+	background-image: url("gradient.gif");
+	border: none;
+	padding: 10px;
+	font-family: Raleway;
+	font-size: 25px;
+	font-weight: bold;
+     border-radius: 50px;
+	 padding-left: 100px;
+	 padding-right: 100px;
+
+}
+
+.btn-check {
+
+	background-image: url("gradient.gif");
+	border: none;
+	padding: 10px;
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: bold;
+     border-radius: 50px;
+	 padding-left: 50px;
+	 padding-right: 50px;
+}
+
+.turn {
+
+font-family: Koulen;
+
+}
